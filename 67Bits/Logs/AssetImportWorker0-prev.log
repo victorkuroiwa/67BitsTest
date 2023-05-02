@@ -1,0 +1,437 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/victo/Desktop/67Bits
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53596
+Successfully changed project path to: C:/Users/victo/Desktop/67Bits
+C:/Users/victo/Desktop/67Bits
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12892] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 643248201 [EditorId] 643248201 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0OGTIO00) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12892] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 643248201 [EditorId] 643248201 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0OGTIO00) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 80.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/victo/Desktop/67Bits/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004267 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\victo\Desktop\67Bits\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\victo\Desktop\67Bits\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3818.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 3.543000 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.291400 ms MarkObjects: 2.850000 ms  DeleteObjects: 0.088800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 289123.564722 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.010103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.800193 seconds.
+  path: Assets/Scenes/Human_cloth_model
+  artifactKey: Guid(060d9a17ee7eae742965f222d61f1f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model using Guid(060d9a17ee7eae742965f222d61f1f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a7774299759eec7583134c19b1476c') in 0.006446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.662553 seconds.
+  path: Assets/Scenes/Human_cloth_model/_Demo
+  artifactKey: Guid(23175aa238dbdb743a9c286acf401ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/_Demo using Guid(23175aa238dbdb743a9c286acf401ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2774efa111770cd489e6223b22bc0f4b') in 0.008581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036121 seconds.
+  path: Assets/Scenes/Human_cloth_model/_Demo/DemoGroundMat.mat
+  artifactKey: Guid(8a28bbea4515feb4f8f1439f2e58e744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/_Demo/DemoGroundMat.mat using Guid(8a28bbea4515feb4f8f1439f2e58e744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231814584980842fc673d713a2c97800') in 0.320994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.176786 seconds.
+  path: Assets/Scenes/Human_cloth_model/_Demo/DemoScene.unity
+  artifactKey: Guid(5299773511c88654da8fcb5f195bf5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/_Demo/DemoScene.unity using Guid(5299773511c88654da8fcb5f195bf5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6891cd2ceac97da834255442366b31e3') in 0.006991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.957706 seconds.
+  path: Assets/Scenes/Human_cloth_model/_Demo/DemoAnimator.controller
+  artifactKey: Guid(00a183ad441d3a448a57550c27ec636b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/_Demo/DemoAnimator.controller using Guid(00a183ad441d3a448a57550c27ec636b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0419a576a5be4d3e8492a1c9d9f38090') in 0.009452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.033840 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.006475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.958373 seconds.
+  path: Assets/Scenes/Human_cloth_model/Animations/Blow Kiss.fbx
+  artifactKey: Guid(edfd13858b6598c49b2b1e0b0c568e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Animations/Blow Kiss.fbx using Guid(edfd13858b6598c49b2b1e0b0c568e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974cf291e4fb4d99b035109152657f77') in 0.026645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/Human_cloth_model/Animations/Victory.fbx
+  artifactKey: Guid(557467d166da13543b890debdd3b1368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Animations/Victory.fbx using Guid(557467d166da13543b890debdd3b1368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6a84e42c19311750043e08d66d7475') in 0.014101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/Human_cloth_model/Animations/Shaking Hands.fbx
+  artifactKey: Guid(213fc1698c08c3747b977e0e910a6045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Animations/Shaking Hands.fbx using Guid(213fc1698c08c3747b977e0e910a6045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f80098501f73d0bbb47659b460552b') in 0.013083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Human_cloth_model/Animations/Walk.fbx
+  artifactKey: Guid(c0af6d57235b5484092d30228b434224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Animations/Walk.fbx using Guid(c0af6d57235b5484092d30228b434224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa946b2febfd6e26df1b64830cd1d8e2') in 0.130491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.598500 seconds.
+  path: Assets/Scenes/Human_cloth_model/Materials/Color_Palette_1.mat
+  artifactKey: Guid(9d453a4066f815e43a62e11f3c14c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Materials/Color_Palette_1.mat using Guid(9d453a4066f815e43a62e11f3c14c2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3f86c309ed3af99144feb1e44d9d43') in 0.092072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Human_cloth_model/Materials/Color_Palette_5.mat
+  artifactKey: Guid(76673e29585841e4ca291d10d440b5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Materials/Color_Palette_5.mat using Guid(76673e29585841e4ca291d10d440b5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1aa228036b3085c294798d89fa99b0') in 0.015684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/Human_cloth_model/Materials/Color_Palette_3.mat
+  artifactKey: Guid(0e455b2434a2c9d4395ca7f8ee5074cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Materials/Color_Palette_3.mat using Guid(0e455b2434a2c9d4395ca7f8ee5074cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbee561613a37d617eb3e1395c92e52') in 0.015269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.766319 seconds.
+  path: Assets/Scenes/Human_cloth_model/Models/Characters/Character_Girl.fbx
+  artifactKey: Guid(30e080b1c102d90448330c8ec8452222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Models/Characters/Character_Girl.fbx using Guid(30e080b1c102d90448330c8ec8452222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecd78fffde4fc5f830e2346f8effcc2') in 0.028679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Human_cloth_model/Models/Characters/Character_Woman.fbx
+  artifactKey: Guid(feb728a4b32e42e40b3eac458be9da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Models/Characters/Character_Woman.fbx using Guid(feb728a4b32e42e40b3eac458be9da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21932fcd27a1cb1fe5cb66f77b5fda4e') in 0.049915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.046124 seconds.
+  path: Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Bowtie.prefab
+  artifactKey: Guid(71e9f925657b4e646baa5521859863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Bowtie.prefab using Guid(71e9f925657b4e646baa5521859863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dee49dd843dce833113573793b16e0') in 0.017389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Hat_Witch.prefab
+  artifactKey: Guid(04144577b870e93478e05da7ac9329a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Hat_Witch.prefab using Guid(04144577b870e93478e05da7ac9329a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60f27c2f2b7903db85c0dc38155ba0e') in 0.014260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Hat_Cap.prefab
+  artifactKey: Guid(66606c34c3ddb6a498fda300436cdf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Hat_Cap.prefab using Guid(66606c34c3ddb6a498fda300436cdf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a597f579c0924ace790e385dd7f7181') in 0.014085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Glasses_02.prefab
+  artifactKey: Guid(719ee9af4107bae4cac4243cc380c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Glasses_02.prefab using Guid(719ee9af4107bae4cac4243cc380c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d993efb794aeced972ad6ae4f65b0b') in 0.014118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Headphones.prefab
+  artifactKey: Guid(ed8b2d9a76f554b4e940f0dc516dde1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Headphones.prefab using Guid(ed8b2d9a76f554b4e940f0dc516dde1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2655529ea3c578ab432685c033206472') in 0.015733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Hair_02.prefab
+  artifactKey: Guid(1c33b2d42586fed4784b40771ed7dc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Prefabs/Accessories/Hair_02.prefab using Guid(1c33b2d42586fed4784b40771ed7dc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7072c092ff89fcf09b38a73b53a03bfe') in 0.014592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.165974 seconds.
+  path: Assets/Scenes/Human_cloth_model/Models/Accessories/Bowtie.fbx
+  artifactKey: Guid(2d526b4bd87cc204098a80b0a9ed1fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Models/Accessories/Bowtie.fbx using Guid(2d526b4bd87cc204098a80b0a9ed1fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82269eec533fad55fe2db017076fc6ff') in 0.014823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Human_cloth_model/Models/Accessories/Glasses_02.fbx
+  artifactKey: Guid(689586323ca56064b81c39a8f4448a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Models/Accessories/Glasses_02.fbx using Guid(689586323ca56064b81c39a8f4448a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8048d85f47d381f74517ebc58782fa') in 0.016840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/Human_cloth_model/Models/Accessories/Glasses_03.fbx
+  artifactKey: Guid(28bf5ed5633f90d428eb73d066935c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Models/Accessories/Glasses_03.fbx using Guid(28bf5ed5633f90d428eb73d066935c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35bfffc9b832f4086b26b36c3c42261') in 0.014650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Human_cloth_model/Models/Accessories/Moustache.fbx
+  artifactKey: Guid(958e647d413df5d4a8d145a54fc597c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Models/Accessories/Moustache.fbx using Guid(958e647d413df5d4a8d145a54fc597c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329b8697def8215008e3b5f1b01e4b6e') in 0.014940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Human_cloth_model/Models/Accessories/Hat_Top.fbx
+  artifactKey: Guid(147a13137c667d546bf8574997308fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Models/Accessories/Hat_Top.fbx using Guid(147a13137c667d546bf8574997308fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8747852d795fefd5a9ff372eae2ec350') in 0.017090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Human_cloth_model/Models/Accessories/Hair_04.fbx
+  artifactKey: Guid(94a80889a1b53cd439185cb1620f2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Models/Accessories/Hair_04.fbx using Guid(94a80889a1b53cd439185cb1620f2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257cd159216a1154545533a088f333d1') in 0.015985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Human_cloth_model/Models/Accessories/Glasses_04.fbx
+  artifactKey: Guid(e243d735be022f144a95976c583ed54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Models/Accessories/Glasses_04.fbx using Guid(e243d735be022f144a95976c583ed54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f37fe9f78df864336c0d5ea16afe46e') in 0.015620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.571547 seconds.
+  path: Assets/Scenes/Human_cloth_model/Textures/Color_Palette_2.jpg
+  artifactKey: Guid(a7f565db66429004f835cf576128dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Textures/Color_Palette_2.jpg using Guid(a7f565db66429004f835cf576128dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfe7b97c8d2f5b1f9dca2e99b84f529') in 0.042509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Human_cloth_model/Textures/Color_Palette_5.jpg
+  artifactKey: Guid(41a153f2c9c16bd49911d3d288483dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Human_cloth_model/Textures/Color_Palette_5.jpg using Guid(41a153f2c9c16bd49911d3d288483dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9485a650bafee5dbfb1db90a1f0292d3') in 0.010582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.762528 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/BEECH3~1.jpeg
+  artifactKey: Guid(876f73d48acad154da0760894a1f5aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/BEECH3~1.jpeg using Guid(876f73d48acad154da0760894a1f5aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ddf091c241cdadedd2a56a12d93051') in 0.017336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/CONCRE~1.jpeg
+  artifactKey: Guid(08b6908efc6b0db47a32f7e8c5dc8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/CONCRE~1.jpeg using Guid(08b6908efc6b0db47a32f7e8c5dc8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c8b4fce457fca30c013544c796a4f5') in 0.014902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/BOIS-0~2.jpeg
+  artifactKey: Guid(c8a9cb2eade59164c89ba1dd48e5976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/BOIS-0~2.jpeg using Guid(c8a9cb2eade59164c89ba1dd48e5976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6245f03dc6ce79941ff411a777d46a5') in 0.017078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/STRAWI~1.jpeg
+  artifactKey: Guid(d569f2fe52fed6f48bc38178ccc47dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/STRAWI~1.jpeg using Guid(d569f2fe52fed6f48bc38178ccc47dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c52d147eaa1cf98639506237bdc20d') in 0.017128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/CURTAI~1.jpeg
+  artifactKey: Guid(f6b15e628098eac4685cc5ef1b483cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/CURTAI~1.jpeg using Guid(f6b15e628098eac4685cc5ef1b483cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00037a27ba6be2b62a2baaf987f58053') in 0.016043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/DOUGLA~1.jpeg
+  artifactKey: Guid(1634812985cbac844b4b909c83a9f706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/DOUGLA~1.jpeg using Guid(1634812985cbac844b4b909c83a9f706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c74bcedda51da4b2bed5c0e3c73182') in 0.010842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/TREATE~1.jpeg
+  artifactKey: Guid(e192d37f250f1a847bd51879c042fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/TREATE~1.jpeg using Guid(e192d37f250f1a847bd51879c042fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3da35244968750d2d6bc80287e3833') in 0.013363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/CARPET~1.jpeg
+  artifactKey: Guid(08c44d0f2ff52364f9e75dc9163a28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/CARPET~1.jpeg using Guid(08c44d0f2ff52364f9e75dc9163a28b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebbed617fe4e32f83b58937d5beffcd') in 0.014219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/BIRCH1~1.jpeg
+  artifactKey: Guid(439e07cbae01f2e478984298c8e20828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/BIRCH1~1.jpeg using Guid(439e07cbae01f2e478984298c8e20828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb7ddcc1fb0542197bf85080ab8b62d') in 0.012360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/GREYCU~1.jpeg
+  artifactKey: Guid(8a5b2d16b0ac4c34f8e1ccc3d7b49b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/GREYCU~1.jpeg using Guid(8a5b2d16b0ac4c34f8e1ccc3d7b49b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5d66cd498828e4061d403e24351607') in 0.012271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/LINEN1~1.jpeg
+  artifactKey: Guid(a3b8174148451304ba68f272e06f43d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/LINEN1~1.jpeg using Guid(a3b8174148451304ba68f272e06f43d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f027de06d5afb84b56ad94764841e090') in 0.014004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/SGVECC~1.jpeg
+  artifactKey: Guid(c71767a36cfe2dc409714bb064c0f7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/SGVECC~1.jpeg using Guid(c71767a36cfe2dc409714bb064c0f7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa5204ef13884422a5e33db0399b81a') in 0.014402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/TIEDYE1.jpeg
+  artifactKey: Guid(81f222486f415b74ab277f1302017dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/TIEDYE1.jpeg using Guid(81f222486f415b74ab277f1302017dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7350cd5804b74ff933ddc41d1c0a8836') in 0.013051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/ocf-youth-stage/textures/SWIRLS~1.jpeg
+  artifactKey: Guid(1a31f28f930b9c94199653d6f4175983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ocf-youth-stage/textures/SWIRLS~1.jpeg using Guid(1a31f28f930b9c94199653d6f4175983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8bdb7a3b66cb0252c93724ac62be65') in 0.012200 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
